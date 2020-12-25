@@ -1,0 +1,27 @@
+{
+  "name": "knox-cli",
+  "version": "1.0.0",
+  "description": "web-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "knox-noe",
+  "license": "ISC",
+  "bin": {
+    "knox": "./bin/knox",
+    "knox-add": "./bin/knox-add",
+    "knox-delete": "./bin/knox-delete",
+    "knox-list": "./bin/knox-list",
+    "knox-init": "./bin/knox-init"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "ora": "^2.0.0",
+    "inquirer": "^6.2.2",
+    "download-git-repo": "^1.1.0"
+  }
+}
